@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 80px;
+  height: 40px;
+  background-color: #5000CC;
+  color: white;
+  cursor: pointer;
+
+  border: solid black;
+  border-width: 3px;
+  border-radius: 8px;
+  font-weight: bold;
+  
+
+  transition: transform 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #8B40FF;
+  transform: scale(1.2);
+}
+
+.canvas {
+  padding-top: 30px;
+}
